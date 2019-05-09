@@ -23,7 +23,7 @@ after_success:
   - docker push antonioc74/multi-worker
 
 deploy:
-  provider: eslasticbeanstalk
+  provider: elasticbeanstalk
   region: eu-west-2
   app: multi-docker
   env: MultiDocker-env
